@@ -1,7 +1,7 @@
 # Phase 2 Code Challenge: Plantsy
 
 ## Demo
-
+new update
 Use this gif as an example of how the app should work.
 
 ![Demo GIF](https://curriculum-content.s3.amazonaws.com/phase-2/react-hooks-mock-code-challenge-plantshop/plantsy_demo.gif)
