@@ -6,6 +6,7 @@ function NewPlantForm() {
   const [name, setName] = useState('')
   const [image, setImage] = useState('')
   const [price, setPrice] = useState(0)
+  // soemthing
 
   const onSubmit  = (e)=>{
     e.preventDefault()
