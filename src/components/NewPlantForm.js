@@ -30,7 +30,7 @@ function NewPlantForm() {
       const newlist = values.push(data)
       console.log('new list',values)
       setRefresh(true)
-      // alert('plant submitted!')
+      alert('plant submitted!')
     })
     .catch(error => {
       alert(error.message)

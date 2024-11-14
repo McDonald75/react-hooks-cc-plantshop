@@ -16,7 +16,7 @@
       "id": 3,
       "name": "Pilea peperomioides",
       "image": "./images/pilea.jpg",
-      "price": 5.99
+      "price": "15.99"
     },
     {
       "id": 4,
@@ -77,6 +77,12 @@
       "image": "https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg",
       "price": "50",
       "id": 16
+    },
+    {
+      "name": "moringa",
+      "image": "asdf",
+      "price": "60",
+      "id": 17
     }
   ]
 }
