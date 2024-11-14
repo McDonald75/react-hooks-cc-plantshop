@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { Context } from "./context";
 
 function NewPlantForm() {
-  const {values, setValues} = useContext(Context)
+  const {values, setValues, setInitValues, setRefresh} = useContext(Context)
   const [name, setName] = useState('')
   const [image, setImage] = useState('')
   const [price, setPrice] = useState(0)
@@ -28,9 +28,7 @@ function NewPlantForm() {
     .then(data => {
       const newlist = values.push(data)
       console.log('new list',values)
-      setValues(v =>{
-        return [data, ...v]
-      })
+      setRefresh(true)
       // alert('plant submitted!')
     })
     .catch(error => {

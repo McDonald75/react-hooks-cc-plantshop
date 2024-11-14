@@ -5,7 +5,7 @@ import { Context } from "./context";
 function PlantList() {
   const [loading, setLoading] = useState(true)
   const {values, setValues} = useContext(Context)
-  const {initValues, setInitValues} = useContext(Context)
+  const {initValues, setInitValues, refresh, setRefresh} = useContext(Context)
   const [error, setError] = useState()
 
   useEffect(()=>{
@@ -19,7 +19,8 @@ function PlantList() {
     }).finally(()=>{
       setLoading(false)
     })
-  },[])
+    return setRefresh(false)
+  },[refresh])
   return (
     <ul className="cards">
       {loading && <>loading...</>}
