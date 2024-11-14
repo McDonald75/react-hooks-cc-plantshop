@@ -4,13 +4,13 @@
       "id": 1,
       "name": "Aloe",
       "image": "./images/aloe.jpg",
-      "price": 15.99
+      "price": "14.90"
     },
     {
       "id": 2,
       "name": "ZZ Plant",
       "image": "./images/zz-plant.jpg",
-      "price": 25.98
+      "price": "5.00"
     },
     {
       "id": 3,
@@ -46,12 +46,6 @@
       "name": "moringa",
       "image": "https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg",
       "price": "30",
-      "id": 8
-    },
-    {
-      "name": "moringa",
-      "image": "https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg",
-      "price": "30",
       "id": 9
     },
     {
@@ -77,18 +71,6 @@
       "image": "https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg",
       "price": "30",
       "id": 13
-    },
-    {
-      "name": "moringa",
-      "image": "asdf",
-      "price": "30",
-      "id": 14
-    },
-    {
-      "name": "moringa",
-      "image": "asdf",
-      "price": "30",
-      "id": 15
     },
     {
       "name": "New Moringa",
